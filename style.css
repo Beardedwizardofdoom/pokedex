@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+	margin:  0;
+	padding: 0;
+	border:  0;
+	outline: 0;
+}
+	
+.wrapper{
+	display:flex;
+	font-size: 2vw;
+	height: 29emem;
+	width: 8em;
+}
+	
+	.leftside{
+		display:flex;
+		height:28em;
+		width:20em;
+	}
+		.pokenames{
+			display:flex;
+			/*height:19em;*/
+			width:15em;
+			margin:0.5em;
+			border-width: 0.1em;
+    		border-style: groove;
+    		border-color: threedface;
+    		border-image: initial;
+		}
+
+		.rightside{
+			display:flex;
+			height:28em;
+			width:35em;
+		}	
+			.pokedisplay{
+				display:flex;
+				width:30em;
+				margin:0.5em 0.5em 0.5em -0.6em;
+				border-width: 0.1em;
+	    		border-style: groove;
+	    		border-color: threedface;
+	    		border-image: initial;
+			}
