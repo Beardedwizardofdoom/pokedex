@@ -9,7 +9,7 @@
 .wrapper{
 	display:flex;
 	font-size: 2vw;
-	height: 29emem;
+	height: 29em;
 	width: 8em;
 }
 	
@@ -18,16 +18,23 @@
 		height:28em;
 		width:20em;
 	}
-		.pokenames{
-			display:flex;
-			/*height:19em;*/
+		
+		.pokegrid{
+			display:flexbox;
+			height:26em;
 			width:15em;
 			margin:0.5em;
-			border-width: 0.1em;
-    		border-style: groove;
-    		border-color: threedface;
-    		border-image: initial;
+			border: 0.2em  solid black;
+			text-align: center;
 		}
+			.pokegridlay{
+				margin:0.3em;
+				text-align: center;
+				border: 0.2em solid black;
+			}
+			/*.poke1{
+				background-color: green;
+			}*/
 
 		.rightside{
 			display:flex;
@@ -35,11 +42,9 @@
 			width:35em;
 		}	
 			.pokedisplay{
-				display:flex;
-				width:30em;
-				margin:0.5em 0.5em 0.5em -0.6em;
-				border-width: 0.1em;
-	    		border-style: groove;
-	    		border-color: threedface;
-	    		border-image: initial;
+				display:flexbox;
+				height:26em;
+				width:15em;
+				margin:0.5em;
+				border: 0.2em  solid black;
 			}
