@@ -1,4 +1,4 @@
-*{
+/**{
 	box-sizing: border-box;
 	margin:  0;
 	padding: 0;
@@ -19,7 +19,7 @@
 		width:20em;
 	}
 		
-		.pokegrid{
+		#pokegrid{
 			display:flexbox;
 			height:26em;
 			width:15em;
@@ -47,4 +47,4 @@
 				width:15em;
 				margin:0.5em;
 				border: 0.2em  solid black;
-			}
+			}*/
